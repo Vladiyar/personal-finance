@@ -1,0 +1,45 @@
+  
+.expenses-list {
+    display: table;
+    animation: pulse .5s 1;
+    padding: 0;
+    margin: 0;
+
+  }
+
+.expenses-list tr {
+  animation: pulse .5s 1;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.expenses-list .title {
+  color: #fff;
+  background-color: #333;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 120px;
+  width: 110px;
+  
+}
+
+.expenses-list td {
+  animation: pulse .5s 1;
+  margin: 5px;
+  
+}
+
+  @keyframes pulse {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  
+  .expenses-list__fallback {
+    text-align: center;
+    animation: pulse .5s 1;
+  }
